@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LilyMVC.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace LilyMVC
     {
         static void Main(string[] args)
         {
+            MainController m = new MainController();
         }
     }
 }
